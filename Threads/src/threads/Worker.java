@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+//Worker que realiza un parte de la integral enviada desde el servidor para distribuir la tarea
 package threads;
 
 
@@ -11,7 +7,10 @@ import java.net.*;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+/*
 
+KATIA
+*/
 
 class Worker implements Runnable{
  String HOST;// = "92.168.20.115";

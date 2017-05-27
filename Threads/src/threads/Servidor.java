@@ -1,12 +1,16 @@
 package threads;
-
+//servidor recibe multiples clientes y workers 
 import java.io.* ;
 import java.net.* ;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.concurrent.atomic.AtomicInteger;
+/*
 
+KATIA
+
+*/
 public class Servidor{
     
    public Socket cliente;
